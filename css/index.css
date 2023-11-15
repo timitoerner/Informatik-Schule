@@ -1,0 +1,75 @@
+body {
+    background-image: linear-gradient(to right, #0a080c, #292231, #0a080c);
+    color: wheat;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 10rem;
+}
+h1 {
+    font-size: 5em;
+}
+
+nav {
+    margin: 3rem;
+    display: grid;
+    grid-template-rows: auto auto;
+    grid-template-columns: auto auto;
+    gap: 2rem;
+}
+nav a {
+    font-size: 2.1em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 20rem;
+    border-radius: 1.5rem;
+    background-color: #473758;
+    text-decoration: none;
+    color: wheat;
+    transition: all 200ms;
+}
+nav a:hover {
+    background-color: wheat;
+
+}
+.nav-explain {
+    position: absolute;
+    color: #473758;
+    text-align: center;
+    line-height: 4rem;
+}
+.iframe-div{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.img-div h2 {
+    font-size: 5rem;
+    text-decoration: underline;
+}
+.img-div p{
+    font-size: 2rem;
+}
+.img-div img {
+    aspect-ratio: initial;
+    height: 400px;
+    float: inline-start;
+    border: grey double 10px;
+    margin-right: 20px;
+}
+.img-div {
+    height: 430px;
+}
+.text-div {
+    color: green;
+    margin: 0 25%;
+    width: 50%;
+}
+#dumm {
+    position: fixed;
+    bottom: 50%;
+    right: 0;
+    font-size: 0.3rem;
+}

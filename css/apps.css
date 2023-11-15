@@ -1,0 +1,87 @@
+body {
+    background-image: linear-gradient(to right, #0a080c, #292231, #0a080c);
+    color: wheat;
+    height: 100vh;
+    margin: 0;
+    padding-bottom: 10rem;
+}
+
+nav {
+    width: 100%;
+    height: 5rem;
+    background-color: #473758;
+}
+nav a {
+    height: inherit;
+}
+nav a img {
+    height: inherit;
+    filter: brightness(100);
+    margin-left: 1em;
+}
+
+#container {
+    margin-top: 5rem;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.item {
+    margin: 1rem;
+    margin-bottom: 4rem;
+    border-radius: 1rem;
+    width: 15rem;
+    height: 15rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    transition: all 200ms;
+}
+.item:hover {
+    background-color: #0008;
+}
+.item div {
+    padding: 1rem;
+    background-color: #0a080cCC;
+    border-radius: 1rem;
+    color: wheat;
+    text-decoration: underline;
+    transform: translateY(10rem);
+}
+
+
+
+#item1 {
+    background-image: url(../pics/visual-studio-code-seeklogo.com.svg);
+}
+#item2 {
+    background-image: url(../pics/git-seeklogo.com.svg);
+}
+#item3 {
+    background-image: url(../pics/arch-linux-seeklogo.com.svg);
+}
+#item4 {
+    background-image: url(../pics/python-seeklogo.com.svg);
+}
+#item5 {
+    background-image: url(../pics/brave-seeklogo.com.svg);
+}
+#item6 {
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/W3Schools_logo.svg/512px-W3Schools_logo.svg.png?20210601004220);
+}
+#item7 {
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/0/04/ChatGPT_logo.svg);
+}
+#item8 {
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/e/ef/Stack_Overflow_icon.svg);
+}
+#item9 {
+    background-image: url(https://www.logo.wine/a/logo/YouTube/YouTube-Icon-Full-Color-Logo.wine.svg);
+}
+#item10 {
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/2/24/Github_logo_svg.svg);
+}

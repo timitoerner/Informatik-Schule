@@ -1,0 +1,33 @@
+body {
+    background-image: linear-gradient(to right, #0a080c, #292231, #0a080c);
+    color: wheat;
+    margin: 0;
+}
+
+nav {
+    width: 100%;
+    height: 5rem;
+    background-color: #473758;
+}
+nav a {
+    height: inherit;
+}
+nav a img {
+    height: inherit;
+    filter: brightness(100);
+    margin-left: 1em;
+}
+
+ul {
+    margin-top: 5rem;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+li {
+    margin: 1rem;
+}
+li img {
+     border-radius: 1rem;
+}
